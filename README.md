@@ -1,2 +1,2 @@
 # delta-web
-This is web development course .
+This is web development course.
