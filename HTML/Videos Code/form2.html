@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=5, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+<form action="/server">
+    <div>
+       <label for="username">Enter name :</label>
+       <input type="text" id="username" placeholder="Username">
+    </div>
+
+    <div><label for="password">Password  :</label>
+        <input type="password" id="password" placeholder="password" name="pass">
+    </div>
+
+    <div><label for="age">Age  :  </label>
+        <input type="number" id="age" placeholder="Age">
+    </div>
+
+    <div>
+        <input type="checkbox" id="age" name="age" checked>
+        <label for="age"> I am 18+</label>
+    </div>
+    <div>
+        <label for="">Check your favourite fruit</label><br>
+        <input type="radio" name="fruit" id="apple" value="apple">
+        <label for="apple">apple</label>
+        <input type="radio" name="fruit" id="mango" value="mango">
+        <label for="mango"> mango</label>
+        <input type="radio" name="fruit" id="orange" value="orange">
+        <label for="orange">Orange</label>
+        <label for="profession"> Choose your profession</label>
+        <select name="profession" id="profession">
+        <option value="">choice</option>
+        <option value="doctor">doctor</option>
+        <option value="student">student</option>
+        <option value="engineer">Engineer</option>
+        </select>
+    </div>
+
+    <br>
+    <label for="volume">Volume</label>
+    <input type="range" id="volume" min="0" max="90" step="5" name="vol">
+    <button type="submit">submit</button>
+    <button type="button"> Hello</button>
+    <button type="reset">Reset</button>
+    
+    <br>
+    
+</form>
+<form action="https://en.wikipedia.org/wiki/">
+    <input type="text" placeholder="Search wikipedia" name="https://en.wikipedia.org/wiki/" id="search">
+    <button type="submit" for="search">search</button>
+</form>
+
+
+
+</body>
+</html>

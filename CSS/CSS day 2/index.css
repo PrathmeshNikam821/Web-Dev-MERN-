@@ -1,0 +1,44 @@
+*{
+    font-family: 'Courier New';
+}
+
+h1,h3{
+    color: #b92b27;
+}
+
+ #login{
+    background-color: green;
+    color: white;
+}
+
+#signup{
+    background-color:#b92b27 ;
+    color:aliceblue;
+}
+
+.upvote{
+    background-color: rgb(155, 237, 237);
+    color:rgb(224, 14, 28);   
+}
+
+nav ul li a{
+    color: #b92b27;
+    background-color: aqua;
+}
+
+.para a{
+    color: rgb(49, 24, 209);
+    text-decoration: none;
+}
+
+p+h3{
+    
+    text-decoration: dotted underline;
+    /* background-color: aqua; */
+}
+
+.upvote+button{
+ 
+    background-color: blue;
+    color: aliceblue;
+}

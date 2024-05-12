@@ -1,0 +1,14 @@
+h1{
+    color:red;
+    background-color:aqua;
+}
+
+p{
+    color:rgb(240, 220, 213);
+    background-color: rgb(206, 145, 157);
+}
+
+button{
+    color:deeppink;
+    background-color: gold;
+}
